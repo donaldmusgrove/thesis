@@ -1,10 +1,9 @@
 ##Required packages
-The given R code makes use of the Armadillo linear algebray library, avaible via the `RcppArmadillo` R package:
+The R and C++ code contained herein include several functions for implementing the sparse spatial generalize linear mixed model for fMRI data as proposed in Musgrove et. al. (2015). The C++ code makes use of the Armadillo linear algebra library, avaible via the `RcppArmadillo` R package:
 
 ```R
 install.packages("RcppArmadillo")
 ```
-
 
 This folder includes the following files:
 
@@ -49,3 +48,9 @@ mask3D.RData
 parcellatedData.RData
  - A list named parcelList with 90 entries, each of which is a parcel
    corresponding to the dataset
+
+
+##References
+```
+Musgrove, D. R., Hughes, J., & Eberly, L. E. (2015). Fast, fully Bayesian spatiotemporal inference for fMRI data. Biostatistics, kxv044.
+```
