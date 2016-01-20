@@ -1,5 +1,5 @@
 ##Required packages
-The R and C++ code contained herein include several functions for implementing the sparse spatial generalize linear mixed model for fMRI data as proposed in Musgrove et. al. (2015). The C++ code makes use of the Armadillo linear algebra library, avaible via the `RcppArmadillo` R package:
+The R and C++ code contained herein include several functions for implementing the sparse spatial generalized linear mixed model for fMRI data as proposed in Musgrove et. al. (2015). The C++ code makes use of the Armadillo linear algebra library, avaible via the `RcppArmadillo` R package:
 
 ```R
 install.packages("RcppArmadillo")
