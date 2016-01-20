@@ -1,8 +1,10 @@
-The following R packages are required to run the included code:
-gridExtra
-inline
-lattice
-RcppArmadillo
+##Required packages
+The given R code makes use of the Armadillo linear algebray library, avaible via the `RcppArmadillo` R package:
+
+```R
+install.packages("RcppArmadillo")
+```
+
 
 This folder includes the following files:
 
@@ -16,9 +18,7 @@ This folder includes the following files:
 3-Plots.R
   - Extra functions for plotting results
   
-################################################################################
-Code folder
-################################################################################
+##Code folder
 cppFunctions.cpp
   - Various C++ functions for carrying out SSGLMM, including batchmeans, and a
     truncated normal sampler
@@ -30,9 +30,7 @@ SSGLMM.R
   - Main SSGLMM function
 
   
-################################################################################
-Data folder
-################################################################################
+##Data folder
 design.csv
   - Design matrix (no header) with the following columns:
     1   Fixation   
