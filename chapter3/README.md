@@ -11,7 +11,12 @@ copCS.R
   - Main file: sources code used and gives an example of running the model on existing data.
 
 
-
+##Code folder
+IPS.cpp
+  - Various C++ functions for carrying out IPS
+	
+helper_functions.R
+  - Functions for fitting the copCS file
 
 
 Source an example dataset to use in the analysis:
