@@ -1,4 +1,4 @@
-setwd("D:/Dropbox/Dissertation/code/ch2")
+setwd("")
 
 
 ### Load example data
