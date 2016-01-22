@@ -3,7 +3,11 @@
 The R and C++ code contained herein include several functions for implementing the copCS model for areal data as proposed in Musgrove et. al. (2016). The C++ code makes use of the Armadillo linear algebra library, avaible via the `RcppArmadillo` R package. We also make use of existing graphical packages, including `gRim` and `RBGL`. Numerical calculations of Hessian matrices and gradient vectors are carried out using the `numDeriv` package.
 
 ```R
-install.packages(c("gRim", "numDeriv", "RBGL", "RcppArmadillo"))
+install.packages(c("gRim", "numDeriv", "RcppArmadillo"))
+
+### Instal RBGL from Bioconductor
+source("https://bioconductor.org/biocLite.R")
+biocLite("RBGL")
 ```
 
 copCS.R
